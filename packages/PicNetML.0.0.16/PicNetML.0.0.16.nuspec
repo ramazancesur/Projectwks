@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+    <id>PicNetML</id>
+    <version>0.0.16</version>
+    <authors>guidot</authors>
+    <owners>guidot</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>https://github.com/PicNet/PicNetML</projectUrl>
+    <iconUrl>http://www.picnet.com.au/images/icon/PicNetML_Icon_128x128px.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .Net Wrapper for the Weka Machine Learning Library.</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>ml weka analytics</tags>
+    <references>
+      <group targetFramework=".NETFramework4.5">
+        <reference file="IKVM.OpenJDK.Beans.dll" />
+        <reference file="IKVM.OpenJDK.Core.dll" />
+        <reference file="IKVM.OpenJDK.Remoting.dll" />
+        <reference file="IKVM.OpenJDK.SwingAWT.dll" />
+        <reference file="IKVM.OpenJDK.Text.dll" />
+        <reference file="IKVM.OpenJDK.Util.dll" />
+        <reference file="IKVM.OpenJDK.XML.API.dll" />
+        <reference file="IKVM.OpenJDK.XML.Bind.dll" />
+        <reference file="IKVM.OpenJDK.XML.Parse.dll" />
+        <reference file="IKVM.OpenJDK.XML.Transform.dll" />
+        <reference file="IKVM.OpenJDK.XML.WebServices.dll" />
+        <reference file="IKVM.OpenJDK.XML.XPath.dll" />
+        <reference file="IKVM.Runtime.dll" />
+        <reference file="LumenWorks.Framework.IO.dll" />
+        <reference file="weka.dll" />
+        <reference file="PicNetML.dll" />
+      </group>
+    </references>
+  </metadata>
+</package>
